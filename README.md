@@ -35,7 +35,15 @@ Steps to create Nested VMs
 10. Open Hyper-V, create desired VM
 11. Boot and connect to nested VM
 
-*If you encounter errors at booting-up the nested VM, here is the workaround:
+<br>
+
+*If you encounter errors when trying to execute PowerShell commands/scripts on host/VM, here is the workaround: <br>
+- Set Execution Policy to Remotely Signed *(allows to run any scripts created locally, without a digital signature)* for Current Windows User *(currently logged-in user)* - using PowerShell <br>
+`Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+<br>
+
+**If you encounter errors at booting-up the nested VM, here is the workaround:
 - Set Hypervisor Launch Type to auto - using Command Prompt <br>
 `bcdedit /set hypervisorlaunchtype auto`
 

@@ -14,6 +14,8 @@ Others / specialized
 - https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/
 - 
 
+<br>
+
 Note: Hyper-V is Microsoft's native hypervisor.
 
 Steps to create Nested VMs
@@ -25,16 +27,16 @@ Steps to create Nested VMs
 6. go to Windows Features - enable Hyper-V related features *(on guest VM)*
 7. shutdown guest VM
 8. On Host:
-- Get the name of the recently created VM - using PowerShell
+- Get the name of the recently created VM - using PowerShell <br>
 `get-vm`
-- Expose Virtualization Extensions from Host to guest VM
+- Expose Virtualization Extensions from Host to guest VM <br>
 `Set-VMProcessor -VMName "<VMName>" -ExposeVirtualizationExtensions $true`
 9. Boot and connect to VM
 10. Open Hyper-V, create desired VM
 11. Boot and connect to nested VM
 
 *If you encounter errors at booting-up the nested VM, here is the workaround:
-- Set Hypervisor Launch Type to auto - using Command Prompt
+- Set Hypervisor Launch Type to auto - using Command Prompt <br>
 `bcdedit /set hypervisorlaunchtype auto`
 
 Note: Workflow tested with W11 in W11 in W11

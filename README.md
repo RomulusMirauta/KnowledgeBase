@@ -133,6 +133,9 @@ Open new terminal CTRL + SHIFT + `
 Trigger the auto-complete pop-up menu
 `CTRL + SPACE`
 
+Error loading webview: Error: Could not register service worker: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state.
+Sometimes, simply reloading the window or restarting VS Code fixes the issue.
+Press Ctrl+Shift+P → type Reload Window → Enter.
 
 
 

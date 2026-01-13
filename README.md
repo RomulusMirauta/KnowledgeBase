@@ -8,8 +8,8 @@ KnowledgeBase
 I. [MS Windows / Basic](#i-ms-windows--basic) <br>
 II. [Google Chrome](#ii-google-chrome) <br>
 III. [Scripting - Batch / Shell / Bash / PowerShell](#iii-scripting---batch--shell--bash--powershell) <br>
-IV. [Visual Studio Code](#v-visual-studio-code) <br>
-V. [Others / Specialized](#vi-others--specialized)
+IV. [Visual Studio Code](#iv-visual-studio-code) <br>
+V. [Others / Specialized](#v-others--specialized)
 
 ---
 
@@ -154,7 +154,7 @@ V. [Others / Specialized](#vi-others--specialized)
 <br>
 
 
-## V. Others / specialized
+## V. Others / Specialized
 
 ### How to automatically remove the empty lines from a file using Notepad++ and RegEx (Regular Expressions)
 1. Open the file in Notepad++

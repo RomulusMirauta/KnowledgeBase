@@ -1,49 +1,55 @@
-# KnowledgeBase
-
-
-# Table of Contents
-I. Windows / basic
-II. Google Chrome
-III. Batch
-IV. PowerShell
-V. Visual Studio Code
-VI. Others / specialized
-
+<h1 align="center">
+KnowledgeBase
+</h1>
 
 <br>
 
+## Table of Contents
+I. [Windows / Basic](#i-windows--basic) <br>
+II. [Google Chrome](#ii-google-chrome) <br>
+III. [Batch](#iii-batch) <br>
+IV. [PowerShell](#iv-powershell) <br>
+V. [Visual Studio Code](#v-visual-studio-code) <br>
+VI. [Others / Specialized](#vi-others--specialized)
 
-I. Windows / basic
+---
+
+<br>
+
+## I. Windows / Basic
 
 Create **copy** of file/folder <br>
-`CTRL + drag `
+`Keep CTRL key pressed + left-click + drag `
 
 <br>
 
 Create **shortcut** of file/folder <br>
-`CTRL + SHIFT + drag`
+`Keep CTRL + SHIFT keys pressed + left-click + drag`
 
 <br>
 
 Instant reset of graphics card driver <br>
-`Windows Key + Ctrl + Shift + B`
+`Windows Key + CTRL + SHIFT + B`
 
-> This may fix many display glitches, **without** the need of a **full reboot**. 
-> The screen will flicker or go black briefly, and you might hear a beep, indicating the driver has reloaded.
+> - This may fix many display glitches, **without** the need of a **full reboot**. 
+> - The screen will flicker or go black briefly, and you might hear a beep, indicating the driver has reloaded.
 
 
-II. Google Chrome
+<br>
+
+## II. Google Chrome
 
 Hard refresh <br>
 `SHIFT + F5`
 
 <br>
 
-Scrollshot (Scrolling screenshot) - like on smartphone <br>
-1. F12
-2. `CTRL + SHIFT + P`
+Scrollshot (scrolling screenshot) - like on smartphone <br>
+1. Press `F12`
+2. Press key combination `CTRL + SHIFT + P`
 3. Type "screens"
 4. Choose "Capture full size screenshot"
+5. Save the file
 
 >Notes: <br>
 >- "Capture full area screenshot" = Current view <br>
@@ -51,8 +57,9 @@ Scrollshot (Scrolling screenshot) - like on smartphone <br>
 
 
 
+<br>
 
-III. Batch
+## III. Batch
 
 How to find computer name & logged user <br>
 `whoami`
@@ -62,9 +69,11 @@ How to find computer name & logged user <br>
 > Also works in PowerShell
 
 
-IV. PowerShell
+<br>
 
-*If you encounter errors when trying to execute PowerShell commands/scripts on a host/VM, here is the workaround: <br>
+## IV. PowerShell
+
+If you encounter errors when trying to execute PowerShell commands/scripts on a host/VM, here is the workaround: <br>
 `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 > Sets the Execution Policy to Remotely Signed *(allows to run any scripts created locally, without a digital signature)* for Current Windows User *(currently logged-in user)* <br>
@@ -73,7 +82,7 @@ IV. PowerShell
 <br>
 
 
-PowerShell - Keyboard & Mouse Shortcuts <br>
+**PowerShell - Keyboard & Mouse Shortcuts** <br>
 
 Select text <br>
 `left-click` <br>
@@ -113,13 +122,13 @@ cd /d D:\
 
 
 
+<br>
 
+## V. Visual Studio Code
 
-V. Visual Studio Code
-
-Alt + Shift + F => Beautify Code
-Ctrl + F => search for keyword inside current file
-Ctrl + Shift + F => search for keyword in projects folders
+ALT + SHIFT + F => Beautify Code
+CTRL + F => search for keyword inside current file
+CTRL + SHIFT + F => search for keyword in projects folders
 
 Edit same variable name in multiple occurrences
 double-click the variable name
@@ -135,13 +144,13 @@ Trigger the auto-complete pop-up menu
 
 Error loading webview: Error: Could not register service worker: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state.
 Sometimes, simply reloading the window or restarting VS Code fixes the issue.
-Press Ctrl+Shift+P → type Reload Window → Enter.
+Press CTRL+SHIFT+P → type Reload Window → Enter.
 
 
 
 
 
-
+<br>
 
 ## VI. Others / specialized
 
@@ -184,6 +193,8 @@ Steps to create Nested VMs
 11. Boot and connect to nested VM
 
 <br>
+
+*If you encounter errors when trying to execute PowerShell commands/scripts on host/VM, [here](#iv-powershell) is the workaround.  <br>
 
 *If you encounter errors when trying to execute PowerShell commands/scripts on host/VM, here is the workaround: <br>
 - Set Execution Policy to Remotely Signed *(allows to run any scripts created locally, without a digital signature)* for Current Windows User *(currently logged-in user)* - using PowerShell <br>

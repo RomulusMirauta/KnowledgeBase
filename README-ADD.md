@@ -1,0 +1,20 @@
+<h1 align="center">
+Scripting Languages Comparison
+</h1>
+
+<br><br>
+
+| Aspect                       | Batch (`.bat` / `.cmd`)                          | Shell (`sh`, POSIX)                                             | Bash (`bash`)                                                                 | PowerShell (`pwsh` / `powershell`)                                           |
+|-----------------------------|--------------------------------------------------|------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Primary platform            | Windows                                          | Unix-like (Linux, *BSD, macOS, etc.)                           | Unix-like (Linux, macOS), also available on Windows (Git Bash, WSL)         | Windows (native), cross‑platform (PowerShell 7+ on Linux/macOS)              |
+| Interpreter                 | `cmd.exe`                                        | `/bin/sh` (POSIX shell, e.g. `dash`, `ksh`, `bash` in sh-mode)  | `/bin/bash`                                                                  | `powershell.exe` (Windows), `pwsh` (Core)                                    |
+| Data model                  | Text (strings)                                   | Text (strings)                                                  | Text (strings)                                                               | Objects (.NET types) passed through pipeline                                  |
+| Typical file extension      | `.bat`, `.cmd`                                   | Usually none (or `.sh`)                                         | `.sh`, `.bash`                                                               | `.ps1`                                                                        |
+| Language features           | Very limited (`if`, `for`, `goto`, labels)       | Minimal but standardized (POSIX `sh`)                           | Richer shell (arrays, `[[ ]]`, brace expansion, etc.)                       | Full scripting language (functions, modules, classes, advanced error handling) |
+| Pipelines                   | Text only                                        | Text only                                                       | Text only                                                                   | Object-based pipeline (`Get-*` / `Set-*` commands)                            |
+| Ecosystem / tooling         | Classic Windows CLI tools (`xcopy`, `robocopy`)  | Standard Unix tools (`grep`, `sed`, `awk`, `find`, `xargs`)     | All Unix tools plus Bash extensions                                         | .NET, WMI/CIM, Windows APIs, Azure / cloud / admin modules                    |
+| Best for                    | Legacy/simple Windows automation                 | Portable Unix scripts, init scripts, POSIX‑compliant tooling    | Day‑to‑day Linux/macOS scripting, dev/ops tooling                           | Modern Windows automation, cross‑platform admin, working with structured data |
+| Complexity sweet spot       | Very small, simple scripts                       | Small–medium scripts, high portability                          | Small–medium scripts, common on Linux servers and dev environments          | Small–large scripts and automation frameworks                                |
+| Availability (default)      | All Windows versions                             | All Unix-like systems                                           | Most Linux distributions, macOS (often alongside `zsh`)                     | Windows (PowerShell 5.1), PowerShell 7+ installable on Linux/macOS           |
+| Cross‑platform suitability  | Poor (Windows only)                              | Good across Unix-like systems only                              | Good across Unix-like; extra setup needed on Windows                        | Good across Windows/Linux/macOS if PowerShell 7+ is available                |
+

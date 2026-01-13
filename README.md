@@ -95,6 +95,8 @@ V. [Others / Specialized](#vi-others--specialized)
 - Select all text in terminal <br>
 `CTRL + SHIFT + A`
 
+<br>
+
 ### Keyboard & Mouse Shortcuts - On Windows <br>
 
 - Select text <br>
@@ -198,5 +200,4 @@ Steps to create Nested VMs
 > - If you encounter errors at booting-up the nested VM, here is the workaround:
 >   > - Set Hypervisor Launch Type to auto - using Command Prompt <br>
 > `bcdedit /set hypervisorlaunchtype auto`
-
-> Note: Workflow tested with W11 in W11 in W11.
+> - Note: Workflow tested with W11 in W11 in W11.

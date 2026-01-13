@@ -5,154 +5,169 @@ KnowledgeBase
 <br>
 
 ## Table of Contents
-I. [Windows / Basic](#i-windows--basic) <br>
+I. [MS Windows / Basic](#i-ms-windows--basic) <br>
 II. [Google Chrome](#ii-google-chrome) <br>
-III. [Batch](#iii-batch) <br>
-IV. [PowerShell](#iv-powershell) <br>
-V. [Visual Studio Code](#v-visual-studio-code) <br>
-VI. [Others / Specialized](#vi-others--specialized)
+III. [Scripting - Batch / Shell / Bash / PowerShell](#iii-scripting---batch--shell--bash--powershell) <br>
+IV. [Visual Studio Code](#v-visual-studio-code) <br>
+V. [Others / Specialized](#vi-others--specialized)
 
 ---
 
 <br>
 
-## I. Windows / Basic
+## I. MS Windows / Basic
 
-Create **copy** of file/folder <br>
+- Create **copy** of file/folder <br>
 `Keep CTRL key pressed + left-click + drag `
 
-<br>
-
-Create **shortcut** of file/folder <br>
+- Create **shortcut** of file/folder <br>
 `Keep CTRL + SHIFT keys pressed + left-click + drag`
 
-<br>
-
-Instant reset of graphics card driver <br>
+- Instant reset of graphics card driver <br>
 `Windows Key + CTRL + SHIFT + B`
 
-> - This may fix many display glitches, **without** the need of a **full reboot**. 
-> - The screen will flicker or go black briefly, and you might hear a beep, indicating the driver has reloaded.
-
+    > Notes: <br>
+    > - This may fix many display glitches, **without** the need of a **full reboot**. 
+    > - ***The screen will flicker or go black briefly, and you might hear a beep from the motherboard, indicating the driver has reloaded.***
 
 <br>
 
 ## II. Google Chrome
 
-Hard refresh <br>
+- Hard refresh page <br>
 `SHIFT + F5`
 
-<br>
+- Scrollshot (scrolling screenshot) - like on smartphone <br>
+    1. Press `F12`
+    2. Press key combination `CTRL + SHIFT + P`
+    3. Type "screens"
+    4. Choose "Capture full size screenshot"
+    5. Save the file
 
-Scrollshot (scrolling screenshot) - like on smartphone <br>
-1. Press `F12`
-2. Press key combination `CTRL + SHIFT + P`
-3. Type "screens"
-4. Choose "Capture full size screenshot"
-5. Save the file
-
->Notes: <br>
->- "Capture full area screenshot" = Current view <br>
->- This feature does not work on any page!
-
-
+    > Notes: <br>
+    > - "Capture full area screenshot" option = Current view <br>
+    > - ***This feature might not work on every page!***
 
 <br>
 
-## III. Batch
+## III. Scripting - Batch / Shell / Bash / PowerShell
 
-How to find computer name & logged user <br>
-`whoami`
-
-> Format: ComputerName\LoggedUser
-> E.g.: desktop-gs4a616\romulus
-> Also works in PowerShell
-
-
-<br>
-
-## IV. PowerShell
-
-If you encounter errors when trying to execute PowerShell commands/scripts on a host/VM, here is the workaround: <br>
+- If you encounter errors when trying to execute PowerShell commands/scripts on a host/VM, here is the workaround: <br>
 `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
-> Sets the Execution Policy to Remotely Signed *(allows to run any scripts created locally, without a digital signature)* for Current Windows User *(currently logged-in user)* <br>
-> Error, e.g. "npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see..."
+    > Notes: <br>
+    > - Sets the Execution Policy to Remotely Signed *(allows to run any scripts created locally, without a digital signature)* for Current Windows User *(currently logged-in user)* <br>
+    > - Error, e.g. "npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see..."
 
 <br>
 
+- How to find computer name & logged user <br>
+`whoami`
 
-**PowerShell - Keyboard & Mouse Shortcuts** <br>
-
-Select text <br>
-`left-click` <br>
-
-Copy text <br>
-`Select text + right-click` <br>
-
-Paste copied text <br>
-`right-click` <br>
-
+    > Notes: <br>
+    > - Format: ComputerName\LoggedUser <br>
+    > - E.g.: desktop-gs4a616\romulus
 
 <br>
 
-*Bash / Shell / PowerShell
+- Clear screen / clear the terminal <br>
+`cls`
 
-cls clear screen, clear the terminal
+- Change working directory - **folder** <br>
+`cd`
 
-cd change directory
-cd .. previous directory
-cd / go to root directoty
-CTRL + C - cancel operation (in-progress OR aborts writing current command)
-arrows - cycling previous commands
+- Go back to previous directory <br>
+`cd ..`
 
-select text - left click
-copy text - right click
-paste copied text - right click
+- Go to parent/root directory <br>
+`cd /`
 
-Select all text in terminal
+- Change directory - changing the working **drive** <br>
+*while currently in ' C:\ '* <br>
+`cd /d E:\`
+
+- Cancel operation (in-progress OR aborts writing current command) <br>
+`CTRL + C`
+
+- Cycling through previous commands <br>
+`arrow keys (UP / DOWN)`
+
+- Select all text in terminal <br>
 `CTRL + SHIFT + A`
 
+### Keyboard & Mouse Shortcuts - On Windows <br>
 
-Change Directory - Changing the working drive
-while currently in C:\
-cd /d D:\
+- Select text <br>
+`left-click` <br>
 
+- Copy text <br>
+`Select text + right-click` <br>
 
+- Paste copied text <br>
+`right-click` <br>
 
+<br>
+
+### Scripting Languages Comparison
+
+| Aspect                       | Batch (`.bat` / `.cmd`)                          | Shell (`sh`, POSIX)                                             | Bash (`bash`)                                                                 | PowerShell (`pwsh` / `powershell`)                                           |
+|-----------------------------|--------------------------------------------------|------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Primary platform            | Windows                                          | Unix-like (Linux, *BSD, macOS, etc.)                           | Unix-like (Linux, macOS), also available on Windows (Git Bash, WSL)         | Windows (native), cross‑platform (PowerShell 7+ on Linux/macOS)              |
+| Interpreter                 | `cmd.exe`                                        | `/bin/sh` (POSIX shell, e.g. `dash`, `ksh`, `bash` in sh-mode)  | `/bin/bash`                                                                  | `powershell.exe` (Windows), `pwsh` (Core)                                    |
+| Data model                  | Text (strings)                                   | Text (strings)                                                  | Text (strings)                                                               | Objects (.NET types) passed through pipeline                                  |
+| Typical file extension      | `.bat`, `.cmd`                                   | Usually none (or `.sh`)                                         | `.sh`, `.bash`                                                               | `.ps1`                                                                        |
+| Language features           | Very limited (`if`, `for`, `goto`, labels)       | Minimal but standardized (POSIX `sh`)                           | Richer shell (arrays, `[[ ]]`, brace expansion, etc.)                       | Full scripting language (functions, modules, classes, advanced error handling) |
+| Pipelines                   | Text only                                        | Text only                                                       | Text only                                                                   | Object-based pipeline (`Get-*` / `Set-*` commands)                            |
+| Ecosystem / tooling         | Classic Windows CLI tools (`xcopy`, `robocopy`)  | Standard Unix tools (`grep`, `sed`, `awk`, `find`, `xargs`)     | All Unix tools plus Bash extensions                                         | .NET, WMI/CIM, Windows APIs, Azure / cloud / admin modules                    |
+| Best for                    | Legacy/simple Windows automation                 | Portable Unix scripts, init scripts, POSIX‑compliant tooling    | Day‑to‑day Linux/macOS scripting, dev/ops tooling                           | Modern Windows automation, cross‑platform admin, working with structured data |
+| Complexity sweet spot       | Very small, simple scripts                       | Small–medium scripts, high portability                          | Small–medium scripts, common on Linux servers and dev environments          | Small–large scripts and automation frameworks                                |
+| Availability (default)      | All Windows versions                             | All Unix-like systems                                           | Most Linux distributions, macOS (often alongside `zsh`)                     | Windows (PowerShell 5.1), PowerShell 7+ installable on Linux/macOS           |
+| Cross‑platform suitability  | Poor (Windows only)                              | Good across Unix-like systems only                              | Good across Unix-like; extra setup needed on Windows                        | Good across Windows/Linux/macOS if PowerShell 7+ is available                |
 
 
 <br>
 
-## V. Visual Studio Code
 
-ALT + SHIFT + F => Beautify Code
-CTRL + F => search for keyword inside current file
-CTRL + SHIFT + F => search for keyword in projects folders
+## IV. Visual Studio Code
 
-Edit same variable name in multiple occurrences
-double-click the variable name
-CTRL + D
-edit it
+- Search for keyword inside current file <br>
+`CTRL + F`
 
-Open terminal CTRL + `
-Open new terminal CTRL + SHIFT + `
+- Search for keyword in projects folders <br>
+`CTRL + SHIFT + F`
 
+- Beautify Code <br>
+`ALT + SHIFT + F`
 
-Trigger the auto-complete pop-up menu
+- Trigger the auto-complete pop-up menu <br>
 `CTRL + SPACE`
 
-Error loading webview: Error: Could not register service worker: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state.
-Sometimes, simply reloading the window or restarting VS Code fixes the issue.
-Press CTRL+SHIFT+P → type Reload Window → Enter.
+- Edit variable with same name that has multiple occurrences in the code
+    1. double-click the variable name
+    2. `CTRL + D`
+    3. edit the variable name - all occurrences will be changed simultaneously
+
+- Open terminal <br>
+`CTRL +`*`<grave apostrophe/backtick character>`* **( ` )**
+
+- Open new terminal  <br>
+`CTRL + SHIFT +`*`<grave apostrophe/backtick character>`* **( ` )**
 
 
+- Reload all windows that are currently open, **without restarting** VS Code
+    1. Press key combination `CTRL + SHIFT + P`
+    2. Type "Reload Window"
+    3. Press `ENTER`
 
+    > Notes: <br>
+    > - Useful when having visual glitches/errors, e.g.: "Error loading webview: Error: Could not register service worker: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state."
+    > - This may happen after installing/updating extensions, or after updating VS Code itself. <br>
 
 
 <br>
 
-## VI. Others / specialized
+
+## V. Others / specialized
 
 ### How to automatically remove the empty lines from a file using Notepad++ and RegEx (Regular Expressions)
 1. Open the file in Notepad++
@@ -194,16 +209,9 @@ Steps to create Nested VMs
 
 <br>
 
-*If you encounter errors when trying to execute PowerShell commands/scripts on host/VM, [here](#iv-powershell) is the workaround.  <br>
+> - If you encounter errors when trying to execute PowerShell commands/scripts on host/VM, [HERE](#iii-scripting---batch--shell--bash--powershell) is the tested workaround. <br>
+> - If you encounter errors at booting-up the nested VM, here is the workaround:
+>   > - Set Hypervisor Launch Type to auto - using Command Prompt <br>
+> `bcdedit /set hypervisorlaunchtype auto`
 
-*If you encounter errors when trying to execute PowerShell commands/scripts on host/VM, here is the workaround: <br>
-- Set Execution Policy to Remotely Signed *(allows to run any scripts created locally, without a digital signature)* for Current Windows User *(currently logged-in user)* - using PowerShell <br>
-`Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
-
-<br>
-
-**If you encounter errors at booting-up the nested VM, here is the workaround:
-- Set Hypervisor Launch Type to auto - using Command Prompt <br>
-`bcdedit /set hypervisorlaunchtype auto`
-
-Note: Workflow tested with W11 in W11 in W11
+> Note: Workflow tested with W11 in W11 in W11.

@@ -4,6 +4,7 @@ KnowledgeBase
 
 <br>
 
+
 ## Table of Contents
 I. [MS Windows / Basic](#i-ms-windows--basic) <br>
 II. [Google Chrome](#ii-google-chrome) <br>
@@ -11,7 +12,6 @@ III. [Scripting - Batch / Shell / Bash / PowerShell](#iii-scripting---batch--she
 IV. [Visual Studio Code](#iv-visual-studio-code) <br>
 V. [Others / Specialized](#v-others--specialized)
 
----
 
 <br>
 
@@ -184,7 +184,7 @@ V. [Others / Specialized](#v-others--specialized)
 
 ## V. Others / Specialized
 
-### How to automatically remove the empty lines from a file using Notepad++ and RegEx (Regular Expressions)
+### V. a. How to automatically remove the empty lines from a file using Notepad++ and RegEx (Regular Expressions)
 1. Open the file in Notepad++
 2. Open 'Replace' sub-window by pressing `CTRL + H`
 3. Type in 'Find what' field: `^\s*\R`
@@ -197,7 +197,7 @@ V. [Others / Specialized](#v-others--specialized)
 
 <br>
 
-### Nested Virtual Machines using Hyper-V
+### V. b. Nested Virtual Machines using Hyper-V
 
 #### Links
 - https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/
@@ -248,4 +248,4 @@ V. [Others / Specialized](#v-others--specialized)
 
 <br>
 
-### Useful PowerShell script for creating a Virtual Drive from an ISO Image is available in a separate file: [Mount_ISO.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/PowerShell_MountDismount_DiskImageISO/Mount_ISO.ps1)
+### V. c. Useful PowerShell script for creating a Virtual Drive from an ISO Image is available in a separate file: [Mount_ISO.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/PowerShell_MountDismount_DiskImageISO/Mount_ISO.ps1)

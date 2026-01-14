@@ -28,6 +28,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Create **shortcut** of file/folder <br>
     `Keep CTRL + SHIFT keys pressed + left-click + drag`
 
+- Paste copied text **without** text formatting <br>
+    `CTRL + SHIFT + V`
+
 - Instant reset of graphics card driver <br>
     `Windows Key + CTRL + SHIFT + B`
 
@@ -41,6 +44,25 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 - Hard refresh page <br>
     `SHIFT + F5`
+
+- Closes current tab <br>
+    `CTRL + W`
+
+- Closes all tabs inside window <br>
+    `CTRL + SHIFT + W`
+
+- Re-opens last closed: tab / window of tabs <br>
+    `CTRL + SHIFT + T`
+
+- Chrome Inspect Tool / DevTools - feature: "Select an element in the page to inspect it" <br>
+    `CTRL + SHIFT + C`
+
+> [!NOTE]
+> - Most if not all of the above-mentioned keyboard shortcuts are also working for:
+>     - Chromium-based browsers like: Microsoft Edge, Opera, Brave, Vivaldi, DuckDuckGo, Samsung Internet [Samsung DeX, Link To Windows *(old)*, Phone Link *(new)*], Yandex Browser, Arc
+>     - Non-Chromium-based browsers like: Mozilla Firefox, Safari, Waterfox, Pale Moon, Falkon, Ladybird, LibreWolf, Tor Browser
+
+<br>
 
 - Scrollshot (scrolling screenshot) - like on smartphone <br>
     1. Press `F12`

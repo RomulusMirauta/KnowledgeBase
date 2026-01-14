@@ -53,7 +53,10 @@ V. [Others / Specialized](#v-others--specialized)
 ## III. Scripting - Batch / Shell / Bash / PowerShell
 
 - If you encounter errors when trying to execute PowerShell commands/scripts on a host/VM, here is the workaround: <br>
-`Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
+```ps1
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
 
     > Notes: <br>
     > - Sets the Execution Policy to Remotely Signed *(allows to run any scripts created locally, without a digital signature)* for Current Windows User *(currently logged-in user)* <br>
@@ -62,7 +65,9 @@ V. [Others / Specialized](#v-others--specialized)
 <br>
 
 - How to find computer name & logged user <br>
-`whoami`
+```bat
+whoami
+```
 
     > Notes: <br>
     > - Format: ComputerName\LoggedUser <br>
@@ -71,20 +76,31 @@ V. [Others / Specialized](#v-others--specialized)
 <br>
 
 - Clear screen / clear the terminal <br>
-`cls`
+```bat
+cls
+```
 
 - Change working directory - **folder** <br>
-`cd`
+```bat
+cd
+```
 
 - Go back to previous directory <br>
-`cd ..`
+```bat
+cd ..
+```
+
 
 - Go to parent/root directory <br>
-`cd /`
+```bat
+cd /
+```
 
 - Change directory - changing the working **drive** <br>
 *while currently in ' C:\ '* <br>
-`cd /d E:\`
+```bat
+cd /d E:\
+```
 
 - Cancel operation (in-progress OR aborts writing current command) <br>
 `CTRL + C`
@@ -200,9 +216,15 @@ Steps to create Nested VMs
 7. shutdown guest VM
 8. On Host:
 - Get the name of the recently created VM - using PowerShell <br>
-`get-vm`
+```ps1
+get-vm
+```
+
 - Expose Virtualization Extensions from Host to guest VM <br>
-`Set-VMProcessor -VMName "<VMName>" -ExposeVirtualizationExtensions $true`
+```ps1
+Set-VMProcessor -VMName "<VMName>" -ExposeVirtualizationExtensions $true
+```
+
 9. Boot and connect to VM
 10. Open Hyper-V, create desired VM
 11. Boot and connect to nested VM
@@ -212,7 +234,9 @@ Steps to create Nested VMs
 > - If you encounter errors when trying to execute PowerShell commands/scripts on host/VM, [HERE](#iii-scripting---batch--shell--bash--powershell) is the tested workaround. <br>
 > - If you encounter errors at booting-up the nested VM, here is the workaround:
 >   > - Set Hypervisor Launch Type to auto - using Command Prompt <br>
-> `bcdedit /set hypervisorlaunchtype auto`
+> ```bat
+> bcdedit /set hypervisorlaunchtype auto
+> ```
 > - Note: Workflow tested with W11 in W11 in W11.
 
 <br>

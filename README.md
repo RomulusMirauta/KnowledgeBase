@@ -276,4 +276,4 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 <br>
 
-### V. c. Useful PowerShell script for creating a Virtual Drive from an ISO Image is available in a separate file: [Mount_ISO.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/PowerShell_MountDismount_DiskImageISO/Mount_ISO.ps1)
+### V. c. Useful PowerShell script for creating a Virtual Drive from an ISO Image is available in a separate repo: [Mount_ISO.ps1](https://github.com/RomulusMirauta/Windows-Scripts#i-powershell---mounting-and-dismounting-an-iso-image)

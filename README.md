@@ -110,10 +110,23 @@ V. [Others / Specialized](#v-others--specialized)
 
 <br>
 
-### Scripting Languages Comparison Table is available in a separate file: [README-ADD.md](./README-ADD.md)
+
+### Useful AHK (AutoHotkey) scripts are available in a separate folder: [AHK](https://github.com/RomulusMirauta/Windows-Scripts/tree/main/AHK)
 
 <br>
 
+### Useful BATCH scripts are available in a separate folder: [BATCH](https://github.com/RomulusMirauta/Windows-Scripts/tree/main/BATCH)
+
+<br>
+
+### Useful Shell commands for GIT BASH are available in a separate file: [GIT_COMMANDS.sh](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/GIT/GIT_COMMANDS.sh)
+
+<br>
+
+### Scripting Languages Comparison Table is available in a separate file: [README-ADD.md](./README-ADD.md)
+
+
+<br>
 
 ## IV. Visual Studio Code
 
@@ -201,3 +214,7 @@ Steps to create Nested VMs
 >   > - Set Hypervisor Launch Type to auto - using Command Prompt <br>
 > `bcdedit /set hypervisorlaunchtype auto`
 > - Note: Workflow tested with W11 in W11 in W11.
+
+<br>
+
+### Useful PowerShell script for creating a Virtual Drive from an ISO Image is available in a separate file: [Mount_ISO.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/PowerShell_MountDismount_DiskImageISO/Mount_ISO.ps1)

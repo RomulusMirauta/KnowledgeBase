@@ -2,18 +2,23 @@
 KnowledgeBase
 </h1>
 
+
 <br>
 
 
 ## Table of Contents
-I. [MS Windows / Basic](#i-ms-windows--basic) <br>
-II. [Google Chrome](#ii-google-chrome) <br>
-III. [Scripting - Batch / Shell / Bash / PowerShell](#iii-scripting---batch--shell--bash--powershell) <br>
-IV. [Visual Studio Code](#iv-visual-studio-code) <br>
-V. [Others / Specialized](#v-others--specialized)
+I. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[MS Windows / Basic](#i-ms-windows--basic) <br>
+II. &nbsp;&nbsp;&nbsp;&nbsp;[Google Chrome](#ii-google-chrome) <br>
+III. &nbsp;&nbsp;&nbsp;[Scripting - Batch / Shell / Bash / PowerShell](#iii-scripting---batch--shell--bash--powershell) <br>
+IV. &nbsp;&nbsp;&nbsp;[Visual Studio Code](#iv-visual-studio-code) <br>
+V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. a. &nbsp;[How to automatically remove the empty lines from a file using Notepad++ and RegEx](#v-a.-how-to-automatically-remove-the-empty-lines-from-a-file-using-notepad++-and-regex) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. b. &nbsp;[Nested Virtual Machines using Hyper-V](#v.-b.-nested-virtual-machines-using-hyper-v) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. c. &nbsp;[PowerShell script for creating a Virtual Drive from an ISO Image](#vc-useful-powershell-script-for-creating-a-virtual-drive-from-an-iso-image-is-available-in-a-separate-file-mount_isops1)
 
 
 <br>
+
 
 ## I. MS Windows / Basic
 
@@ -184,7 +189,7 @@ V. [Others / Specialized](#v-others--specialized)
 
 ## V. Others / Specialized
 
-### V. a. How to automatically remove the empty lines from a file using Notepad++ and RegEx (Regular Expressions)
+### V. a. How to automatically remove the empty lines from a file using Notepad++ and RegEx
 1. Open the file in Notepad++
 2. Open 'Replace' sub-window by pressing `CTRL + H`
 3. Type in 'Find what' field: `^\s*\R`
@@ -194,6 +199,7 @@ V. [Others / Specialized](#v-others--specialized)
 
 > [!NOTE]
 > Tested this on several files containing lists of keywords.
+> RegEx = Regular Expression(s)
 
 <br>
 

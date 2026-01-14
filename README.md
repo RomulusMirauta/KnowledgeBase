@@ -18,24 +18,24 @@ V. [Others / Specialized](#v-others--specialized)
 ## I. MS Windows / Basic
 
 - Create **copy** of file/folder <br>
-`Keep CTRL key pressed + left-click + drag `
+    `Keep CTRL key pressed + left-click + drag `
 
 - Create **shortcut** of file/folder <br>
-`Keep CTRL + SHIFT keys pressed + left-click + drag`
+    `Keep CTRL + SHIFT keys pressed + left-click + drag`
 
 - Instant reset of graphics card driver <br>
-`Windows Key + CTRL + SHIFT + B`
+    `Windows Key + CTRL + SHIFT + B`
 
-    > Notes: <br>
-    > - This may fix many display glitches, **without** the need of a **full reboot**. 
-    > - ***The screen will flicker or go black briefly, and you might hear a beep from the motherboard, indicating the driver has reloaded.***
+> [!NOTE]
+> - This may fix many display glitches, **without** the need of a **full reboot**. 
+> - ***The screen will flicker or go black briefly, and you might hear a beep from the motherboard, indicating the driver has reloaded.***
 
 <br>
 
 ## II. Google Chrome
 
 - Hard refresh page <br>
-`SHIFT + F5`
+    `SHIFT + F5`
 
 - Scrollshot (scrolling screenshot) - like on smartphone <br>
     1. Press `F12`
@@ -44,85 +44,84 @@ V. [Others / Specialized](#v-others--specialized)
     4. Choose "Capture full size screenshot"
     5. Save the file
 
-    > Notes: <br>
-    > - "Capture full area screenshot" option = Current view <br>
-    > - ***This feature might not work on every page!***
+> [!NOTE]
+> - "Capture full area screenshot" option = Current view <br>
+> - ***This feature might not work on every page!***
 
 <br>
 
 ## III. Scripting - Batch / Shell / Bash / PowerShell
 
 - If you encounter errors when trying to execute PowerShell commands/scripts on a host/VM, here is the workaround: <br>
-```ps1
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
+    ```ps1
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+    ```
 
-
-    > Notes: <br>
-    > - Sets the Execution Policy to Remotely Signed *(allows to run any scripts created locally, without a digital signature)* for Current Windows User *(currently logged-in user)* <br>
-    > - Error, e.g. "npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see..."
+> [!NOTE]
+> - Sets the Execution Policy to Remotely Signed *(allows to run any scripts created locally, without a digital signature)* for Current Windows User *(currently logged-in user)* <br>
+> - Error, e.g. "npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see..."
 
 <br>
 
 - How to find computer name & logged user <br>
-```bat
-whoami
-```
+    ```bat
+    whoami
+    ```
 
-    > Notes: <br>
-    > - Format: ComputerName\LoggedUser <br>
-    > - E.g.: desktop-gs4a616\romulus
+> [!NOTE]
+> - Format: ComputerName\LoggedUser <br>
+> - E.g.: desktop-gs4a616\romulus
 
 <br>
 
 - Clear screen / clear the terminal <br>
-```bat
-cls
-```
+    ```bat
+    cls
+    ```
 
 - Change working directory - **folder** <br>
-```bat
-cd
-```
+    ```bat
+    cd
+    ```
 
 - Go back to previous directory <br>
-```bat
-cd ..
-```
+    ```bat
+    cd ..
+    ```
 
 
 - Go to parent/root directory <br>
-```bat
-cd /
-```
+    ```bat
+    cd /
+    ```
 
 - Change directory - changing the working **drive** <br>
 *while currently in ' C:\ '* <br>
-```bat
-cd /d E:\
-```
+    ```bat
+    cd /d E:\
+    ```
 
 - Cancel operation (in-progress OR aborts writing current command) <br>
-`CTRL + C`
+    `CTRL + C`
 
 - Cycling through previous commands <br>
-`arrow keys (UP / DOWN)`
+    `arrow keys (UP / DOWN)`
 
 - Select all text in terminal <br>
-`CTRL + SHIFT + A`
+    `CTRL + SHIFT + A`
 
 <br>
 
 ### Keyboard & Mouse Shortcuts - On Windows <br>
 
 - Select text <br>
-`left-click` <br>
+    `left-click` <br>
 
 - Copy text <br>
-`Select text + right-click` <br>
+    `Select text + right-click` <br>
 
 - Paste copied text <br>
-`right-click` <br>
+    `right-click` <br>
 
 <br>
 
@@ -147,16 +146,16 @@ cd /d E:\
 ## IV. Visual Studio Code
 
 - Search for keyword inside current file <br>
-`CTRL + F`
+    `CTRL + F`
 
 - Search for keyword in projects folders <br>
-`CTRL + SHIFT + F`
+    `CTRL + SHIFT + F`
 
 - Beautify Code <br>
-`ALT + SHIFT + F`
+    `ALT + SHIFT + F`
 
 - Trigger the auto-complete pop-up menu <br>
-`CTRL + SPACE`
+    `CTRL + SPACE`
 
 - Edit variable with same name that has multiple occurrences in the code
     1. double-click the variable name
@@ -164,10 +163,10 @@ cd /d E:\
     3. edit the variable name - all occurrences will be changed simultaneously
 
 - Open terminal <br>
-`CTRL +`*`<grave apostrophe/backtick character>`* **( ` )**
+    `CTRL +`*`<grave apostrophe/backtick character>`* **( ` )**
 
 - Open new terminal  <br>
-`CTRL + SHIFT +`*`<grave apostrophe/backtick character>`* **( ` )**
+    `CTRL + SHIFT +`*`<grave apostrophe/backtick character>`* **( ` )**
 
 
 - Reload all windows that are currently open, **without restarting** VS Code
@@ -175,9 +174,9 @@ cd /d E:\
     2. Type "Reload Window"
     3. Press `ENTER`
 
-    > Notes: <br>
-    > - Useful when having visual glitches/errors, e.g.: "Error loading webview: Error: Could not register service worker: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state."
-    > - This may happen after installing/updating extensions, or after updating VS Code itself. <br>
+> [!NOTE]
+> - Useful when having visual glitches/errors, e.g.: "Error loading webview: Error: Could not register service worker: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state."
+> - This may happen after installing/updating extensions, or after updating VS Code itself. <br>
 
 
 <br>
@@ -193,8 +192,10 @@ cd /d E:\
 5. Change 'Search Mode' to 'Regular expression'
 6. Click on 'Replace All'
 
+> [!NOTE]
 > Tested this on several files containing lists of keywords.
 
+<br>
 
 ### Nested Virtual Machines using Hyper-V
 
@@ -202,11 +203,7 @@ cd /d E:\
 - https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/
 - 
 
-<br>
-
-Note: Hyper-V is Microsoft's native hypervisor.
-
-Steps to create Nested VMs
+#### Steps to create Nested VMs
 1. enable CPU virtualization in system's BIOS
 2. go to Windows Features - enable Hyper-V related features *(on host)*
 3. restart the system as promted
@@ -215,29 +212,39 @@ Steps to create Nested VMs
 6. go to Windows Features - enable Hyper-V related features *(on guest VM)*
 7. shutdown guest VM
 8. On Host:
-- Get the name of the recently created VM - using PowerShell <br>
-```ps1
-get-vm
-```
+    - Get the name of the recently created VM - using PowerShell <br>
+    ```ps1
+    get-vm
+    ```
 
-- Expose Virtualization Extensions from Host to guest VM <br>
-```ps1
-Set-VMProcessor -VMName "<VMName>" -ExposeVirtualizationExtensions $true
-```
-
+    - Expose Virtualization Extensions from Host to guest VM <br>
+    ```ps1
+    Set-VMProcessor -VMName "<VMName>" -ExposeVirtualizationExtensions $true
+    ```
 9. Boot and connect to VM
 10. Open Hyper-V, create desired VM
 11. Boot and connect to nested VM
 
 <br>
 
-> - If you encounter errors when trying to execute PowerShell commands/scripts on host/VM, [HERE](#iii-scripting---batch--shell--bash--powershell) is the tested workaround. <br>
-> - If you encounter errors at booting-up the nested VM, here is the workaround:
->   > - Set Hypervisor Launch Type to auto - using Command Prompt <br>
-> ```bat
-> bcdedit /set hypervisorlaunchtype auto
-> ```
-> - Note: Workflow tested with W11 in W11 in W11.
+> [!IMPORTANT]
+> - If you encounter errors when trying to execute PowerShell commands/scripts on host/guest VM, [**HERE**](#iii-scripting---batch--shell--bash--powershell) is the **tested** solution. <br>
+> - If you encounter errors at booting-up the **nested VM**, here is the solution: <br>
+>     - Set Hypervisor Launch Type to auto - using Command Prompt/PowerShell, on the **guest VM** <br>
+>         ```bat
+>         bcdedit /set hypervisorlaunchtype auto
+>         ```
+
+<br>
+
+> [!NOTE]
+> - Explaining utilized terms:
+>    - Host (Machine) = The actual physical computer, which components will be shared/virtualized
+>    - VM = Virtual Machine
+>    - Guest VM = VM running on Host
+>    - Nested VM = VM running on Guest VM
+>    - Hyper-V = Microsoft's native hypervisor
+> - Tested the above workflow with W11 in W11 in W11.
 
 <br>
 

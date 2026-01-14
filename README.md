@@ -198,8 +198,8 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 6. Click on 'Replace All'
 
 > [!NOTE]
-> Tested this on several files containing lists of keywords.
-> RegEx = Regular Expression(s)
+> - RegEx = Regular Expression(s)
+> - Tested this on several files containing lists of keywords. <br>
 
 <br>
 

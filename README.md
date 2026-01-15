@@ -72,6 +72,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Chrome Inspect Tool / DevTools - Elements Tab - Feature: "Select an element in the page to inspect it" <br>
     `CTRL + SHIFT + C`
 
+- Chrome Inspect Tool / DevTools - Network Tab <br>
+    `CTRL + SHIFT + I`
+
 - Chrome Inspect Tool / DevTools - Console <br>
     `CTRL + SHIFT + J`
 

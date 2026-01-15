@@ -4,27 +4,27 @@
     </h1>
     <p>
         <em> 
-            A collection of Keyboard Shortcuts, Scripts, Tips & Tricks useful for automating common & repetitive tasks, as well as some specialized ones.
+            A collection of Keyboard Shortcuts, Scripts, Tips & Tricks useful for automating common & repetitive tasks.
         </em>
     </p>
 </div>
 
 
-<br>
+<br><br>
 
 
 ## Table of Contents
 I. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft Windows 10 / 11](#i-microsoft-windows-10--11) <br>
 II. &nbsp;&nbsp;&nbsp;&nbsp;[Google Chrome+](#ii-google-chrome) <br>
-III. &nbsp;&nbsp;&nbsp;[Scripting - Batch / Shell / Bash / PowerShell](#iii-scripting---batch--shell--bash--powershell) <br>
+III. &nbsp;&nbsp;&nbsp;[Scripting - Batch / Shell / Bash / PowerShell / AHK](#iii-scripting---batch--shell--bash--powershell--ahk) <br>
 IV. &nbsp;&nbsp;&nbsp;[Visual Studio Code](#iv-visual-studio-code) <br>
 V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. a. &nbsp;[How to automatically remove the empty lines from a file using Notepad++ and RegEx](#v-a-how-to-automatically-remove-the-empty-lines-from-a-file-using-notepad-and-regex) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. b. &nbsp;[Nested Virtual Machines using Hyper-V](#v-b-nested-virtual-machines-using-hyper-v) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. c. &nbsp;[PowerShell script for creating a Virtual Drive from an ISO Image](#v-c-useful-powershell-script-for-creating-a-virtual-drive-from-an-iso-image-is-available-in-a-separate-repo-mount_isops1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. a. &nbsp;[How to automatically remove the empty lines from a text - using Notepad++ and RegEx](#v-a-how-to-automatically-remove-the-empty-lines-from-a-text---using-notepad-and-regex) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. b. &nbsp;[Nested Virtual Machines - using Hyper-V](#v-b-nested-virtual-machines---using-hyper-v) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. c. &nbsp;[Script for creating a Virtual Drive from an ISO Image - using PowerShell](#v-c-useful-powershell-script-for-creating-a-virtual-drive-from-an-iso-image-is-available-in-a-separate-repo-mount_isops1)
 
 
-<br>
+<br><br>
 
 
 ## I. Microsoft Windows 10 / 11
@@ -108,7 +108,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 <br>
 
-## III. Scripting - Batch / Shell / Bash / PowerShell
+## III. Scripting - Batch / Shell / Bash / PowerShell / AHK
 
 - If you encounter errors when trying to execute PowerShell commands/scripts on a host/VM, here is the workaround: <br>
     ```ps1
@@ -242,7 +242,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 ## V. Others / Specialized
 
-### V. a. How to automatically remove the empty lines from a file using Notepad++ and RegEx
+### V. a. How to automatically remove the empty lines from a text - using Notepad++ and RegEx
 1. Open the file in Notepad++
 2. Open 'Replace' sub-window by pressing `CTRL + H`
 3. Type in 'Find what' field: `^\s*\R`
@@ -256,7 +256,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 <br>
 
-### V. b. Nested Virtual Machines using Hyper-V
+### V. b. Nested Virtual Machines - using Hyper-V
 
 #### Links
 - https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/

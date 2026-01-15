@@ -1,13 +1,20 @@
-<h1 align="center">
-KnowledgeBase
-</h1>
+<div align="center">
+    <h1>
+        KnowledgeBase
+    </h1>
+    <p>
+        <em> 
+            A collection of Keyboard Shortcuts, Scripts, Tips & Tricks useful for automating common & repetitive tasks, as well as some specialized ones.
+        </em>
+    </p>
+</div>
 
 
 <br>
 
 
 ## Table of Contents
-I. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[MS Windows / Basic](#i-ms-windows--basic) <br>
+I. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft Windows 10 / 11](#i-microsoft-windows-10--11) <br>
 II. &nbsp;&nbsp;&nbsp;&nbsp;[Google Chrome+](#ii-google-chrome) <br>
 III. &nbsp;&nbsp;&nbsp;[Scripting - Batch / Shell / Bash / PowerShell](#iii-scripting---batch--shell--bash--powershell) <br>
 IV. &nbsp;&nbsp;&nbsp;[Visual Studio Code](#iv-visual-studio-code) <br>
@@ -20,7 +27,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 <br>
 
 
-## I. MS Windows / Basic
+## I. Microsoft Windows 10 / 11
 
 - Create **copy** of file/folder <br>
     `Keep CTRL key pressed + left-click + drag `
@@ -30,6 +37,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 - Paste copied text **without** text formatting <br>
     `CTRL + SHIFT + V`
+
+- Change sound output device <br>
+    `CTRL + Windows Key + V`
 
 - Instant reset of graphics card driver <br>
     `Windows Key + CTRL + SHIFT + B`

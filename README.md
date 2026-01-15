@@ -66,8 +66,14 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Search by keyword(s) in all browser tabs (from all browser windows) <br>
     `CTRL + SHIFT + A`
 
-- Chrome Inspect Tool / DevTools - feature: "Select an element in the page to inspect it" <br>
+- Show/hide Bookmarks Bar (useful when screen-sharing for interviews or when recording demos) <br>
+    `CTRL + SHIFT + B`
+
+- Chrome Inspect Tool / DevTools - Elements Tab - Feature: "Select an element in the page to inspect it" <br>
     `CTRL + SHIFT + C`
+
+- Chrome Inspect Tool / DevTools - Console <br>
+    `CTRL + SHIFT + J`
 
 > [!NOTE]
 > - Most if not all of the above-mentioned keyboard shortcuts are also working for:

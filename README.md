@@ -8,7 +8,7 @@ KnowledgeBase
 
 ## Table of Contents
 I. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[MS Windows / Basic](#i-ms-windows--basic) <br>
-II. &nbsp;&nbsp;&nbsp;&nbsp;[Google Chrome](#ii-google-chrome) <br>
+II. &nbsp;&nbsp;&nbsp;&nbsp;[Google Chrome+](#ii-google-chrome) <br>
 III. &nbsp;&nbsp;&nbsp;[Scripting - Batch / Shell / Bash / PowerShell](#iii-scripting---batch--shell--bash--powershell) <br>
 IV. &nbsp;&nbsp;&nbsp;[Visual Studio Code](#iv-visual-studio-code) <br>
 V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
@@ -40,19 +40,31 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 <br>
 
-## II. Google Chrome
+## II. Google Chrome+
 
 - Hard refresh page <br>
     `SHIFT + F5`
 
-- Closes current tab <br>
+- Close current tab <br>
     `CTRL + W`
 
-- Closes all tabs inside window <br>
+- Close all tabs inside window <br>
     `CTRL + SHIFT + W`
 
-- Re-opens last closed: tab / window of tabs <br>
+- Re-open last closed: tab / window of tabs <br>
     `CTRL + SHIFT + T`
+
+- Open a new tab <br>
+    `CTRL + T`
+
+- Open a new window <br>
+    `CTRL + N`
+
+- Open a new window in Incognito Mode (advantages: no browser extensions, no cookies kept after session end) <br>
+    `CTRL + SHIFT + N`
+
+- Search by keyword(s) in all browser tabs (from all browser windows) <br>
+    `CTRL + SHIFT + A`
 
 - Chrome Inspect Tool / DevTools - feature: "Select an element in the page to inspect it" <br>
     `CTRL + SHIFT + C`

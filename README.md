@@ -14,7 +14,7 @@ IV. &nbsp;&nbsp;&nbsp;[Visual Studio Code](#iv-visual-studio-code) <br>
 V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. a. &nbsp;[How to automatically remove the empty lines from a file using Notepad++ and RegEx](#v-a-how-to-automatically-remove-the-empty-lines-from-a-file-using-notepad-and-regex) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. b. &nbsp;[Nested Virtual Machines using Hyper-V](#v-b-nested-virtual-machines-using-hyper-v) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. c. &nbsp;[PowerShell script for creating a Virtual Drive from an ISO Image](#v-c-useful-powershell-script-for-creating-a-virtual-drive-from-an-iso-image-is-available-in-a-separate-file-mount_isops1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. c. &nbsp;[PowerShell script for creating a Virtual Drive from an ISO Image](#v-c-useful-powershell-script-for-creating-a-virtual-drive-from-an-iso-image-is-available-in-a-separate-repo-mount_isops1)
 
 
 <br>

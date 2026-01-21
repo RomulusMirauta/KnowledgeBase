@@ -41,12 +41,60 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Change sound output device <br>
     `CTRL + Windows Key + V`
 
+- Open Run Dialog <br>
+    `Windows Key + R`
+
+<br>
+
 - Instant reset of graphics card driver <br>
     `Windows Key + CTRL + SHIFT + B`
 
 > [!NOTE]
 > - This may fix many display glitches, **without** the need of a **full reboot**. 
 > - ***The screen will flicker or go black briefly, and you might hear a beep from the motherboard, indicating the driver has reloaded.***
+
+<br>
+
+- C:\Users\<username> <br>
+    `%USERPROFILE%`
+
+- C:\Users\<username>\AppData\ <br>
+    `%APPDATA%`
+
+- C:\Users\<username>\AppData\Local <br>
+    `%LOCALAPPDATA%`
+
+- C:\Users\<username>\AppData\Local\Temp <br>
+    `%TEMP%` or `%TMP%`
+
+
+- C:\Program Files <br>
+    `%ProgramFiles%`
+
+- C:\Program Files (x86) <br>
+    `%ProgramFiles(x86)%`
+
+
+- C:\Windows <br>
+    `%SystemRoot%` or `%WINDIR%`
+
+- C: (or the drive letter where the operating system is installed) <br>
+    `%SystemDrive%`
+
+
+> [!NOTE]
+> Thses are Windows environment variable - that act as a shortcut. <br>
+> They can be used in:
+> - Windows Explorer
+> - Run Dialog
+> - CLIs - like Command Prompt and PowerShell
+> - Task Scheduler
+> - Search Bar
+> - Desktop Shortcuts
+> - Windows Registry (regedit)
+> - Application Settings
+> - Scripts
+
 
 <br>
 

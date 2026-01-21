@@ -21,7 +21,8 @@ IV. &nbsp;&nbsp;&nbsp;[Visual Studio Code](#iv-visual-studio-code) <br>
 V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. a. &nbsp;[How to automatically remove the empty lines from a text - using Notepad++ and RegEx](#v-a-how-to-automatically-remove-the-empty-lines-from-a-text---using-notepad-and-regex) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. b. &nbsp;[Nested Virtual Machines - using Hyper-V](#v-b-nested-virtual-machines---using-hyper-v) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. c. &nbsp;[Script for creating a Virtual Drive from an ISO Image - using PowerShell](#v-c-useful-powershell-script-for-creating-a-virtual-drive-from-an-iso-image-is-available-in-a-separate-repo-mount_isops1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. c. &nbsp;[Script for creating a Virtual Drive from an ISO Image - using PowerShell](#v-c-powershell-script-for-creating-a-virtual-drive-from-an-iso-image-is-available-in-a-separate-repo-mount_isops1) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. d. &nbsp;[Script for converting MKVs to GIFs for GitHub REPOs DEMOs - using Batch](#v-d-batch-script-for-converting-video-files-eg-mkv--matroska-video-format-to-a-gif-graphics-interchange-format-is-available-in-a-separate-repo-ffmpegscriptconversionmkvtogifcmd)
 
 
 <br><br>
@@ -358,4 +359,34 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 <br>
 
-### V. c. Useful PowerShell script for creating a Virtual Drive from an ISO Image is available in a separate repo: [Mount_ISO.ps1](https://github.com/RomulusMirauta/Windows-Scripts#i-powershell---mounting-and-dismounting-an-iso-image)
+### V. c. PowerShell script for creating a Virtual Drive from an ISO Image is available in a separate repo: [Mount_ISO.ps1](https://github.com/RomulusMirauta/Windows-Scripts#i-powershell---mounting-and-dismounting-an-iso-image)
+
+<br>
+
+### V. d. Batch script for converting video files (e.g. MKV = Matroska Video format) to a GIF (Graphics Interchange Format) is available in a separate repo: [ffmpegScriptConversionMkvToGif.cmd](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/BATCH/ffmpegScriptConversionMkvToGif.cmd)
+
+#### Steps to follow:
+1. Record the video - I recommend:
+   - Software = [OBS](https://obsproject.com/)
+   - Recording format (output) = Matroska Video (.mkv)
+   - Muting / not recording audio *(not needed)*
+2. Download the script: [ffmpegScriptConversionMkvToGif.cmd](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/BATCH/ffmpegScriptConversionMkvToGif.cmd)
+   - right-click and choose "Save link as..."
+   - ***OR***
+   - click on link and press key combination `CTRL + SHIFT + S`
+3. Move/copy the script to OBS output folder *(default = "C:\Users\<username>\Videos\OBS")*
+4. rename desired file to input (full file name = "input1.mkv")
+5. run the script
+
+<br>
+
+> [!NOTE]
+> - This workflow is useful for creating DEMOs for GitHub REPOs.
+>     - GitHub can display several common image formats, including PNG, JPG, **GIF**, PSD, and SVG
+>     - The **MKV** *(.mkv)* file format is not officially supported as an interactive or playable format on GitHub.
+> - MKV = Matroska Video = a free, open-source multimedia container format that bundles video, audio, subtitle, and image tracks into a single file
+> - GIF = Graphics Interchange Format = a digital image file format supporting both static pictures and short, looping, silent animations, widely used on the internet for reactions and short clips
+> - The resulting GIF file might be bigger than the video file used as input.
+
+TO TEST: 
+No Embedded Playback: Unlike .mp4, .mov, and .webm, MKV files cannot be played directly within GitHub's web interface, pull requests, or README files.

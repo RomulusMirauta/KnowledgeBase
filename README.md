@@ -306,13 +306,17 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 > - RegEx = Regular Expression(s)
 > - Tested this on several files containing lists of keywords. <br>
 
-<br>
+<br><br><br>
 
 ### V. b. Nested Virtual Machines - using Hyper-V
 
+<br>
+
 #### Links
 - https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/
-- 
+- https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/
+
+<br>
 
 #### Steps to create Nested VMs
 1. enable CPU virtualization in system's BIOS
@@ -357,13 +361,21 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 >    - Hyper-V = Microsoft's native hypervisor
 > - Tested the above workflow with W11 in W11 in W11.
 
-<br>
+<br><br><br>
 
 ### V. c. PowerShell script for creating a Virtual Drive from an ISO Image is available in a separate repo: [Mount_ISO.ps1](https://github.com/RomulusMirauta/Windows-Scripts#i-powershell---mounting-and-dismounting-an-iso-image)
 
-<br>
+<br><br><br>
 
 ### V. d. Batch script for converting video files (e.g. MKV = Matroska Video format) to a GIF (Graphics Interchange Format) is available in a separate repo: [ffmpegScriptConversionMkvToGif.cmd](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/BATCH/ffmpegScriptConversionMkvToGif.cmd)
+
+<br>
+
+#### Links
+- https://obsproject.com/
+- https://github.com/FFmpeg/FFmpeg
+
+<br>
 
 #### Steps to follow:
 1. Record the video - I recommend:

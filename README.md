@@ -91,10 +91,13 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 > - Task Scheduler
 > - Search Bar
 > - Desktop Shortcuts
-> - Windows Registry (regedit)
+> - Regedit (Windows Registry Editor)
 > - Application Settings
 > - Scripts
 
+<br>
+
+- Windows System Tools: Regedit (Windows Registry Editor), Task Scheduler, MSConfig (System Configuration), Computer Management, Task Manager, Command Prompt, PowerShell, Windows Features, dxdiag, Windows Sandbox
 
 <br>
 

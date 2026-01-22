@@ -57,6 +57,12 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Create new folder <br>
     `CTRL + SHIFT + N`
 
+- Close current app window <br>
+    `CTRL + W`
+
+- Close current app <br>
+    `ALT + F4`
+
 - Create new virtual desktop <br>
     `Windows Key + CTRL + D`
 
@@ -68,7 +74,11 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 - Switch between open apps <br>
     `ALT + TAB` <br>
-    *(keep ALT pressed and press TAB repeatedly to cycle through open apps)*
+    *(shown on the main display; keep ALT pressed and press TAB repeatedly to cycle through open apps)*
+
+- Switch between open apps <br>
+    `Windows Key + TAB` <br>
+    *(shown on all displays, depending on what display the app is currently active)*
 
 <br>
 

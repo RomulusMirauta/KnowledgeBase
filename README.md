@@ -38,7 +38,10 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Create **shortcut** of file/folder <br>
     `Keep CTRL + SHIFT keys pressed + left-click + drag`
 
-- Paste copied text **without** text formatting <br>
+- Show clipboard history <br>
+    `Windows Key + V`
+
+- Paste copied text **without** text formatting (plain text) <br>
     `CTRL + SHIFT + V`
 
 - Change sound output device <br>
@@ -46,6 +49,17 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 - Open Run Dialog <br>
     `Windows Key + R`
+
+- Show Emoji Panel <br>
+    `Windows Key + .` *(period/dot)* <br>
+    ***OR*** <br>
+    `Windows Key + ;` *(semicolon)*
+
+- Show Desktop <br>
+    `Windows Key + D`
+
+- Peek at Desktop (show Desktop temporarily while key is pressed) <br>
+    `Windows Key + ,` *(comma)*
 
 - Open Task Manager <br>
     `CTRL + SHIFT + ESC` <br>
@@ -71,6 +85,12 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 - Close current virtual desktop <br>
     `Windows Key + CTRL + F4`
+
+- Move Window to Next Desktop
+    `Windows Key + Ctrl + Shift + Right Arrow`
+
+- Move Window to Previous Desktop
+    `Windows Key + Ctrl + Shift + Left Arrow`
 
 - Switch between open apps - only on current Desktop <br>
     `ALT + TAB` <br>

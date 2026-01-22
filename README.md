@@ -141,6 +141,8 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Chrome Inspect Tool / DevTools - Network Tab <br>
     `CTRL + SHIFT + I`
 
+<br>
+
 - Chrome Inspect Tool / DevTools - Console <br>
     `CTRL + SHIFT + J`
 

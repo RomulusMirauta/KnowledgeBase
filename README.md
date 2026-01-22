@@ -209,8 +209,16 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Open a new window <br>
     `CTRL + N`
 
-- Highlights browser's address bar <br>
-    `CTRL + E`
+- Focus and empty browser's search/address bar <br>
+    `CTRL + E` <br>
+    ***OR*** <br>
+    `CTRL + K`
+
+- Highlight the entire URL in the address bar (useful for fast copy/paste) <br>
+    `CTRL + L`
+
+-  Add "www." and ".com" to a typed term (e.g., typing "google" becomes "www.google.com") <br>
+    `CTRL + Enter`
 
 - Open browser's Task Manager <br>
     *(acts like Windows's Task Manager, showing used resources (CPU, RAM, GPU's VRAM, network etc) per tab - useful for solving performance issues)* <br>

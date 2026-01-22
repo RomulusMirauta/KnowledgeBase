@@ -102,6 +102,10 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 <br>
 
+### Useful Tools (SW) and Browser Extensions are listed in a separate [REPO](https://github.com/RomulusMirauta/Useful_Tools_and_Extensions#useful-tools-and-extensions)
+
+<br>
+
 ## II. Google Chrome+
 
 - Hard refresh page <br>

@@ -15,7 +15,9 @@
 
 ## Table of Contents
 I. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft Windows 10 / 11](#i-microsoft-windows-10--11) <br>
-II. &nbsp;&nbsp;&nbsp;&nbsp;[Browsers - Google Chrome, MS Edge](#ii-browsers) <br>
+II. &nbsp;&nbsp;&nbsp;&nbsp;[Client Browsers](#ii-browsers) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; II. a. &nbsp;[Google Chrome](#ii-a-google-chrome) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; II. b. &nbsp;[Microsoft Edge](#ii-b-microsoft-edge---specific-features) <br>
 III. &nbsp;&nbsp;&nbsp;[Scripting - Batch / Shell / Bash / PowerShell / AHK](#iii-scripting---batch--shell--bash--powershell--ahk) <br>
 IV. &nbsp;&nbsp;&nbsp;[Visual Studio Code](#iv-visual-studio-code) <br>
 V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
@@ -137,6 +139,10 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Open a new window <br>
     `CTRL + N`
 
+- Open browser's Task Manager <br>
+    *(acts like Windows's Task Manager, showing used resources (CPU, RAM, GPU's VRAM, network etc) per tab - useful for solving performance issues)* <br>
+    `SHIFT + ESC`
+
 - Open a new window in Incognito Mode (advantages: no browser extensions, no cookies kept after session end) <br>
     `CTRL + SHIFT + N`
 
@@ -151,8 +157,6 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 - Chrome Inspect Tool / DevTools - Network Tab <br>
     `CTRL + SHIFT + I`
-
-<br>
 
 - Chrome Inspect Tool / DevTools - Console <br>
     `CTRL + SHIFT + J`

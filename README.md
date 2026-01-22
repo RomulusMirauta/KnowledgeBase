@@ -32,6 +32,12 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 ## I. Microsoft Windows 10 / 11
 
+### Links:
+- https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec
+- https://www.w3schools.com/tags/ref_keyboardshortcuts.asp
+
+<br>
+
 - Create **copy** of file/folder <br>
     `Keep CTRL key pressed + left-click + drag `
 
@@ -354,6 +360,13 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 
 ## IV. Visual Studio Code
+
+### Links:
+- https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+- https://code.visualstudio.com/docs/reference/default-keybindings
+- https://code.visualstudio.com/docs/configure/keybindings
+
+<br>
 
 - Search for keyword inside current file <br>
     `CTRL + F`

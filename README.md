@@ -110,6 +110,15 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 ### II. a. Google Chrome+
 
+#### Links:
+- https://developer.chrome.com/docs/devtools/shortcuts
+- https://support.microsoft.com/en-us/microsoft-edge/keyboard-shortcuts-in-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad
+- https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
+- https://help.opera.com/en/latest/shortcuts/
+- https://support.apple.com/guide/safari/keyboard-and-other-shortcuts-cpsh003/mac
+
+<br>
+
 - Hard refresh/reload page <br>
     `SHIFT + F5`
 

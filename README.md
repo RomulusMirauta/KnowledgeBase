@@ -22,7 +22,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. a. &nbsp;[How to automatically remove the empty lines from a text - using Notepad++ and RegEx](#v-a-how-to-automatically-remove-the-empty-lines-from-a-text---using-notepad-and-regex) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. b. &nbsp;[Nested Virtual Machines - using Hyper-V](#v-b-nested-virtual-machines---using-hyper-v) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. c. &nbsp;[Script for creating a Virtual Drive from an ISO Image - using PowerShell](#v-c-powershell-script-for-creating-a-virtual-drive-from-an-iso-image-is-available-in-a-separate-repo-mount_isops1) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. d. &nbsp;[Script for converting MKVs to GIFs for GitHub REPOs DEMOs - using Batch](#v-d-batch-script-for-converting-video-files-eg-mkv--matroska-video-format-to-a-gif-graphics-interchange-format-is-available-in-a-separate-repo-ffmpegscriptconversionmkvtogifcmd)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. d. &nbsp;[Script for converting MKVs to GIFs for GitHub REPOs DEMOs - using PowerShell](#v-d-powershell-script-for-converting-video-files-eg-mkv--matroska-video-format-to-a-gif-graphics-interchange-format-is-available-in-a-separate-repo-ffmpegscriptconversionmkvtogifps1)
 
 
 <br><br>
@@ -367,7 +367,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 <br><br><br>
 
-### V. d. Batch script for converting video files (e.g. MKV = Matroska Video format) to a GIF (Graphics Interchange Format) is available in a separate repo: [ffmpegScriptConversionMkvToGif.cmd](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/BATCH/ffmpegScriptConversionMkvToGif.cmd)
+### V. d. PowerShell script for converting video files (e.g. MKV = Matroska Video format) to a GIF (Graphics Interchange Format) is available in a separate repo: [ffmpegScriptConversionMkvToGif.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/BATCH/ffmpegScriptConversionMkvToGif.ps1)
 
 <br>
 
@@ -382,13 +382,19 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
    - Software = [OBS](https://obsproject.com/)
    - Recording format (output) = Matroska Video (.mkv)
    - Muting / not recording audio *(not needed)*
-2. Download the script: [ffmpegScriptConversionMkvToGif.cmd](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/BATCH/ffmpegScriptConversionMkvToGif.cmd)
+2. Download the script: [ffmpegScriptConversionMkvToGif.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/POWERSHELL/ffmpegScriptConversionMkvToGif.ps1)
    - right-click and choose "Save link as..."
    - ***OR***
    - click on link and press key combination `CTRL + SHIFT + S`
 3. Move/copy the script to OBS output folder *(default = "C:\Users\<username>\Videos\OBS")*
 4. rename desired file to input (full file name = "input1.mkv")
 5. run the script
+   - from Windows/File Explorer - right-click and choose "Run with PowerShell"
+   - from PowerShell CLI
+       - `cd` to script's location
+       - ```ps1
+         powershell -ExecutionPolicy Bypass -File .\ffmpegScriptConversionMkvToGif.ps1
+         ```
 
 <br>
 

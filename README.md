@@ -72,15 +72,13 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Close current virtual desktop <br>
     `Windows Key + CTRL + F4`
 
-- Switch between open apps <br>
+- Switch between open apps - only on current Desktop <br>
     `ALT + TAB` <br>
-    *(shown on the main display; keep ALT pressed and press TAB repeatedly to cycle through open apps)*
+    *(shown on the main display; keep ALT pressed, and press TAB repeatedly to cycle through open apps)*
 
-- Switch between open apps <br>
+- Switch between open apps - on all Desktops **&** Switch between Virtual Desktops <br>
     `Windows Key + TAB` <br>
-    *(shown on all displays, depending on what display the app is currently active)*
-
-<br>
+    *(shown on all displays, depending on what display the app is currently active; it also shows all currently open Virtual Desktops)*
 
 - Switch between open windows of the same app <br>
     `CTRL + TAB` <br>

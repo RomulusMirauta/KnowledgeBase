@@ -381,7 +381,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 <br>
 
 > [!IMPORTANT]
-> - If you encounter errors when trying to execute PowerShell commands/scripts on host/guest VM, [**HERE**](#iii-scripting---batch--shell--bash--powershell) is the **tested** solution. <br>
+> - If you encounter errors when trying to execute PowerShell commands/scripts on host/guest VM, [**HERE**](#iii-scripting---batch--shell--bash--powershell--ahk) is the **tested** solution. <br>
 > - If you encounter errors at booting-up the **nested VM**, here is the solution: <br>
 >     - Set Hypervisor Launch Type to auto - using Command Prompt/PowerShell, on the **guest VM** <br>
 >         ```bat

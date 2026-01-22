@@ -12,7 +12,6 @@
 
 <br><br>
 
-
 ## Table of Contents
 I. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft Windows 10 / 11](#i-microsoft-windows-10--11) <br>
 II. &nbsp;&nbsp;&nbsp;&nbsp;[Client Browsers](#ii-browsers) <br>

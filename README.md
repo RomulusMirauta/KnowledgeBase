@@ -47,6 +47,13 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Open Run Dialog <br>
     `Windows Key + R`
 
+- Open Task Manager <br>
+    `CTRL + SHIFT + ESC` <br>
+    ***OR*** <br>
+    `CTRL + ALT + DELETE` and choose "Task Manager" <br>
+    ***OR*** <br>
+    right-click on Taskbar and choose "Task Manager" <br>
+
 <br>
 
 - Instant reset of graphics card driver <br>

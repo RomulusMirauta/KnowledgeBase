@@ -54,6 +54,35 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
     ***OR*** <br>
     right-click on Taskbar and choose "Task Manager" <br>
 
+- Create new folder <br>
+    `CTRL + SHIFT + N`
+
+- Create new virtual desktop <br>
+    `Windows Key + CTRL + D`
+
+- Switch between virtual desktops <br>
+    `Windows Key + CTRL + LEFT / RIGHT Arrow`
+
+- Close current virtual desktop <br>
+    `Windows Key + CTRL + F4`
+
+- Switch between open apps <br>
+    `ALT + TAB` <br>
+    *(keep ALT pressed and press TAB repeatedly to cycle through open apps)*
+
+<br>
+
+- Switch between open windows of the same app <br>
+    `CTRL + TAB` <br>
+    *(keep CTRL pressed and press TAB repeatedly to cycle through open windows of the same app)*
+
+- Switch backwards between open windows of the same app <br>
+    `CTRL + SHIFT + TAB`
+    *(keep CTRL and SHIFT pressed and press TAB repeatedly to cycle backwards through open windows of the same app)*
+
+> [!NOTE]
+> - These work with apps like: Windows/File Explorer, Google Chrome and other browsers, Visual Studio Code, Notepad++, Adobe Acrobat Reader DC, Command Prompt, PowerShell etc. <br>
+
 <br>
 
 - Instant reset of graphics card driver <br>

@@ -110,7 +110,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 ### II. a. Google Chrome+
 
-- Hard refresh page <br>
+- Hard refresh/reload page <br>
     `SHIFT + F5`
 
 - Close current tab <br>

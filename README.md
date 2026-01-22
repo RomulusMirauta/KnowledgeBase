@@ -209,6 +209,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Open a new window <br>
     `CTRL + N`
 
+- Highlights browser's address bar <br>
+    `CTRL + E`
+
 - Open browser's Task Manager <br>
     *(acts like Windows's Task Manager, showing used resources (CPU, RAM, GPU's VRAM, network etc) per tab - useful for solving performance issues)* <br>
     `SHIFT + ESC`

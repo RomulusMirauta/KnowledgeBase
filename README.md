@@ -383,14 +383,14 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
    - Recording format (output) = Matroska Video (.mkv)
    - Muting / not recording audio *(not needed)*
 2. Download the script: [ffmpegScriptConversionMkvToGif.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/POWERSHELL/ffmpegScriptConversionMkvToGif.ps1)
-   - right-click and choose "Save link as..."
+   - Right-click and choose "Save link as..."
    - ***OR***
-   - click on link and press key combination `CTRL + SHIFT + S`
+   - Click on link and press key combination `CTRL + SHIFT + S`
 3. Move/copy the script to OBS output folder *(default = "C:\Users\<username>\Videos\OBS")*
-4. rename desired file to input (full file name = "input1.mkv")
-5. run the script
-   - from Windows/File Explorer - right-click and choose "Run with PowerShell"
-   - from PowerShell CLI
+4. Rename desired file to input (full file name = "input1.mkv")
+5. Run the script
+   - From Windows/File Explorer - right-click and choose "Run with PowerShell"
+   - Drom PowerShell CLI
        - `cd` to script's location
        - ```ps1
          powershell -ExecutionPolicy Bypass -File .\ffmpegScriptConversionMkvToGif.ps1

@@ -15,7 +15,7 @@
 
 ## Table of Contents
 I. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft Windows 10 / 11](#i-microsoft-windows-10--11) <br>
-II. &nbsp;&nbsp;&nbsp;&nbsp;[Google Chrome+](#ii-google-chrome) <br>
+II. &nbsp;&nbsp;&nbsp;&nbsp;[Browsers - Google Chrome, MS Edge](#ii-browsers) <br>
 III. &nbsp;&nbsp;&nbsp;[Scripting - Batch / Shell / Bash / PowerShell / AHK](#iii-scripting---batch--shell--bash--powershell--ahk) <br>
 IV. &nbsp;&nbsp;&nbsp;[Visual Studio Code](#iv-visual-studio-code) <br>
 V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
@@ -106,7 +106,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 <br>
 
-## II. Google Chrome+
+## II. Browsers
+
+### II. a. Google Chrome+
 
 - Hard refresh page <br>
     `SHIFT + F5`
@@ -164,7 +166,19 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 > - "Capture full area screenshot" option = Current view <br>
 > - ***This feature might not work on every page!***
 
+
 <br>
+
+
+### II. b. Microsoft Edge - specific features
+- Paste and search or Paste and go *(if it's a URL)* = Pastes content from the clipboard into the address bar and executes the search/URL <br>
+    `CTRL + SHIFT + L`
+
+
+
+<br>
+
+
 
 ## III. Scripting - Batch / Shell / Bash / PowerShell / AHK
 
@@ -257,7 +271,10 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 ### Scripting Languages Comparison Table is available in a separate file: [README-ADD.md](./README-ADD.md)
 
 
+
 <br>
+
+
 
 ## IV. Visual Studio Code
 
@@ -312,7 +329,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 > - RegEx = Regular Expression(s)
 > - Tested this on several files containing lists of keywords. <br>
 
+
 <br><br><br>
+
 
 ### V. b. Nested Virtual Machines - using Hyper-V
 
@@ -371,7 +390,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 ### V. c. PowerShell script for creating a Virtual Drive from an ISO Image is available in a separate repo: [Mount_ISO.ps1](https://github.com/RomulusMirauta/Windows-Scripts#i-powershell---mounting-and-dismounting-an-iso-image)
 
+
 <br><br><br>
+
 
 ### V. d. PowerShell script for converting video files (e.g. MKV = Matroska Video format) to a GIF (Graphics Interchange Format) is available in a separate repo: [ffmpegScriptConversionMkvToGif.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/POWERSHELL/ffmpegScriptConversionMkvToGif.ps1)
 

@@ -38,8 +38,11 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 <br>
 
+- Rename file/folder <br>
+    `F2`
+
 - Create **copy** of file/folder <br>
-    `Keep CTRL key pressed + left-click + drag `
+    `Keep CTRL key pressed + left-click + drag`
 
 - Create **shortcut** of file/folder <br>
     `Keep CTRL + SHIFT keys pressed + left-click + drag`

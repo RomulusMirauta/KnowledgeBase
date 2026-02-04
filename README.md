@@ -537,7 +537,3 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 > - GIF = Graphics Interchange Format = a digital image file format supporting both static pictures and short, looping, silent animations, widely used on the internet for reactions and short clips
 > - The resulting GIF file might be bigger than the video file used as input.
 > - Other video file formats that are supported as input by ffmpeg: MP4, WebM, MOV, AVI, WMV, FLV, MPEG/MPG, M4V, 3GP, TS/M2TS, OGV, VOB.
-
-
-TO TEST: 
-No Embedded Playback: Unlike .mp4, .mov, and .webm, MKV files cannot be played directly within GitHub's web interface, pull requests, or README files.

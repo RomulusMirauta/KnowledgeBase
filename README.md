@@ -24,7 +24,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. a. &nbsp;[How to automatically remove the empty lines from a text - using Notepad++ and RegEx](#v-a-how-to-automatically-remove-the-empty-lines-from-a-text---using-notepad-and-regex) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. b. &nbsp;[Nested Virtual Machines - using Hyper-V](#v-b-nested-virtual-machines---using-hyper-v) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. c. &nbsp;[Script for creating a Virtual Drive from an ISO Image - using PowerShell](#v-c-powershell-script-for-creating-a-virtual-drive-from-an-iso-image-is-available-in-a-separate-repo-mount_isops1) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. d. &nbsp;[Script for converting MKVs to GIFs for GitHub REPOs DEMOs - using PowerShell](#v-d-powershell-script-for-converting-video-files-eg-mkv--matroska-video-format-to-a-gif-graphics-interchange-format-is-available-in-a-separate-repo-ffmpegscriptconversionmkvtogifps1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; V. d. &nbsp;[Script for converting video files to GIFs for GitHub REPOs DEMOs - using PowerShell](#v-d-powershell-script-for-converting-video-files-eg-mkv--matroska-video-format-to-a-gif-graphics-interchange-format-is-available-in-a-separate-repo-ffmpegscriptconversionvideotogifps1)
 
 
 <br><br>
@@ -495,7 +495,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 <br><br><br>
 
 
-### V. d. PowerShell script for converting video files (e.g. MKV = Matroska Video format) to a GIF (Graphics Interchange Format) is available in a separate repo: [ffmpegScriptConversionMkvToGif.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/POWERSHELL/ffmpegScriptConversionMkvToGif.ps1)
+### V. d. PowerShell script for converting video files (e.g. MKV = Matroska Video format) to a GIF (Graphics Interchange Format) is available in a separate repo: [ffmpegScriptConversionVideoToGif.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/POWERSHELL/ffmpegScriptConversionVideoToGif.ps1)
 
 <br>
 
@@ -510,18 +510,18 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
    - Software = [OBS](https://obsproject.com/)
    - Recording format (output) = Matroska Video (.mkv)
    - Muting / not recording audio *(not needed)*
-2. Download the script: [ffmpegScriptConversionMkvToGif.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/POWERSHELL/ffmpegScriptConversionMkvToGif.ps1)
+2. Download the script: [ffmpegScriptConversionVideoToGif.ps1](https://github.com/RomulusMirauta/Windows-Scripts/blob/main/POWERSHELL/ffmpegScriptConversionVideoToGif.ps1)
    - Right-click and choose "Save link as..."
    - ***OR***
    - Click on link and press key combination `CTRL + SHIFT + S`
 3. Move/copy the script to OBS output folder *(default = "C:\Users\<username>\Videos\OBS")*
-4. Rename desired file to input (full file name = "input1.mkv")
+4. Rename desired file to "input" (e.g. full file name: "input.mkv", "input.mp4")
 5. Run the script
    - From Windows/File Explorer - right-click and choose "Run with PowerShell"
    - Drom PowerShell CLI
        - `cd` to script's location
        - ```ps1
-         powershell -ExecutionPolicy Bypass -File .\ffmpegScriptConversionMkvToGif.ps1
+         powershell -ExecutionPolicy Bypass -File .\ffmpegScriptConversionVideoToGif.ps1
          ```
 
 <br>
@@ -533,6 +533,8 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 > - MKV = Matroska Video = a free, open-source multimedia container format that bundles video, audio, subtitle, and image tracks into a single file
 > - GIF = Graphics Interchange Format = a digital image file format supporting both static pictures and short, looping, silent animations, widely used on the internet for reactions and short clips
 > - The resulting GIF file might be bigger than the video file used as input.
+> - Other video file formats that are supported as input by ffmpeg: MP4, WebM, MOV, AVI, WMV, FLV, MPEG/MPG, M4V, 3GP, TS/M2TS, OGV, VOB.
+
 
 TO TEST: 
 No Embedded Playback: Unlike .mp4, .mov, and .webm, MKV files cannot be played directly within GitHub's web interface, pull requests, or README files.

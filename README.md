@@ -271,6 +271,10 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Paste and search or Paste and go *(if it's a URL)* = Pastes content from the clipboard into the address bar and executes the search/URL <br>
     `CTRL + SHIFT + L`
 
+<br>
+
+#### JavaScript Bookmarklets are available in a separate [REPO](https://github.com/RomulusMirauta/JavaScript-Bookmarklets#javascript-bookmarklet-repository) <br> *(Bookmarklet = Browser bookmark that executes JavaScript code instead of just opening a webpage)*
+
 
 
 <br>

@@ -392,6 +392,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Search for keyword in projects folders <br>
     `CTRL + SHIFT + F`
 
+- Toggle Word Wrap *(independently per file)* <br>
+    `ALT + Z`
+
 - Beautify Code <br>
     `ALT + SHIFT + F`
 

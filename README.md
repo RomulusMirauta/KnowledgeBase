@@ -86,7 +86,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Close current app <br>
     `ALT + F4`
 
-- Open Snipping Tool *(built-in multi-tool)* <br>
+- Open Snipping Tool *(W11 built-in multi-tool: screenshots, color picker, text extractor)* <br>
     `Windows Key + SHIFT + S`
 
 - Create new virtual desktop <br>

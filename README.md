@@ -44,6 +44,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Create **copy** of file/folder <br>
     `Keep CTRL key pressed + left-click + drag`
 
+- **Move** file/folder <br>
+    `Keep SHIFT key pressed + left-click + drag`
+
 - Create **shortcut** of file/folder <br>
     `Keep CTRL + SHIFT keys pressed + left-click + drag`
 

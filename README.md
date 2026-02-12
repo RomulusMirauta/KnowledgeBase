@@ -183,7 +183,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 <br>
 
-### Useful Tools (SW) and Browser Extensions are listed in a separate [REPO](https://github.com/RomulusMirauta/Useful_Tools_and_Extensions#useful-tools-and-extensions)
+### Useful Chrome Browser Extensions are listed in a separate [REPO](https://github.com/RomulusMirauta/Useful_Tools_and_Extensions?tab=readme-ov-file#ii-useful-google-chrome-extensions)
 
 <br>
 
@@ -268,6 +268,10 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 > [!NOTE]
 > - "Capture full area screenshot" option = Current view <br>
 > - ***This feature might not work on every page!***
+
+<br>
+
+### Useful Tools (SW) are listed in a separate [REPO](https://github.com/RomulusMirauta/Useful_Tools_and_Extensions?tab=readme-ov-file#i-useful-tools-mainly-available-for-windows)
 
 
 <br>

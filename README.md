@@ -162,7 +162,7 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 
 
 > [!NOTE]
-> Thses are Windows environment variable - that act as a shortcut. <br>
+> These are Windows environment variable - that act as a shortcut. <br>
 > They can be used in:
 > - Windows Explorer
 > - Run Dialog

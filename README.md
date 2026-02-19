@@ -229,6 +229,15 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 -  Add "www." and ".com" to a typed term (e.g., typing "google" becomes "www.google.com") <br>
     `CTRL + Enter`
 
+
+- Search for text in page <br>
+    `CTRL + F` <br>
+  - Go to the ***next*** match <br>
+    `Enter`  <br>
+  - Go to the ***previous*** match <br>
+    `SHIFT + Enter`  <br>
+
+
 - Open browser's Task Manager <br>
     *(acts like Windows's Task Manager, showing used resources (CPU, RAM, GPU's VRAM, network etc) per tab - useful for solving performance issues)* <br>
     `SHIFT + ESC`

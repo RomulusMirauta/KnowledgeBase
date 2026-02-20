@@ -41,6 +41,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Rename file/folder <br>
     `F2`
 
+- Go back / up one folder <br>
+    `BACKSPACE` (←)
+
 - Create **copy** of file/folder <br>
     `Keep CTRL key pressed + left-click + drag`
 

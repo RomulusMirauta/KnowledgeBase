@@ -65,6 +65,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Open Run Dialog <br>
     `Windows Key + R`
 
+- Open Windows Settings <br>
+    `Windows Key + I`
+
 - Show Emoji Panel <br>
     `Windows Key + .` *(period/dot)* <br>
     ***OR*** <br>

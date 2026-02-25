@@ -98,6 +98,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Open Snipping Tool *(W11 built-in multi-tool: screenshots, color picker, text extractor)* <br>
     `Windows Key + SHIFT + S`
 
+- Open Text Extractor Tool *(W11 built-in multi-tool)* <br>
+    `Windows Key + SHIFT + T`
+
 - Create new virtual desktop <br>
     `Windows Key + CTRL + D`
 

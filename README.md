@@ -149,6 +149,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - C:\Users\<username> <br>
     `%USERPROFILE%`
 
+- C:\Users\<username>\Documents *(for current user)* <br>
+    `%USERPROFILE%\Documents`
+
 - C:\Users\<username>\AppData\ <br>
     `%APPDATA%`
 

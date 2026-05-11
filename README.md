@@ -79,6 +79,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Peek at Desktop (show Desktop temporarily while key is pressed) <br>
     `Windows Key + ,` *(comma)*
 
+- Opens the Snap Layouts menu. Allows you to quickly organize and snap your active window into a specific layout on your screen. This feature makes it easy to arrange multiple windows efficiently, acting as a shortcut for hovering over the maximize button <br>
+    `Windows Key + Z`
+
 - Open Task Manager <br>
     `CTRL + SHIFT + ESC` <br>
     ***OR*** <br>

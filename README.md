@@ -51,7 +51,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
     `Keep SHIFT key pressed + left-click + drag`
 
 - Create **shortcut** of file/folder <br>
-    `Keep CTRL + SHIFT keys pressed + left-click + drag`
+    `Keep CTRL + SHIFT keys pressed + left-click + drag` <br>
+    ***OR*** <br>
+    `Keep ALT key pressed + left-click + drag`
 
 - Show clipboard history <br>
     `Windows Key + V`

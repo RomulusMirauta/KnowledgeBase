@@ -220,6 +220,9 @@ V. &nbsp;&nbsp;&nbsp;&nbsp;[Others / Specialized](#v-others--specialized) <br>
 - Hard refresh/reload page <br>
     `SHIFT + F5`
 
+- Scroll horizontally (left/right) <br>
+    `SHIFT + scroll wheel`
+
 - Close current tab <br>
     `CTRL + W`
 
